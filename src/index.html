@@ -1,0 +1,115 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Finance: Check Balances</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+<meta name="keywords" content="Royal Tabs Form Responsive, Signup form web template, Sign up Web Templates, Flat Web Templates, Login signup Responsive web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+
+<link href="css/fontawesome-all.min.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+
+<style>
+	
+	/* .loader {
+	  z-index: 1;
+	  margin: -75px 0 0 -75px;
+	  border: 9px solid #f3f3f3;
+	  border-radius: 50%;
+	  border-top: 9px solid #3498db;
+	  width: 20px;
+	  height: 20px;
+	  animation: spin 2s linear infinite;
+			} */
+
+#loader:not([hidden]) {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  /* right: 0; */
+  /* bottom: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loader::after {
+  content: "";
+  margin: -75px 0 0 -75px;
+  width: 20px;
+  height: 20px;
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid #3498db;
+  border-radius: 100%;
+  will-change: transform;
+  animation: spin 1s infinite linear
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+		</style>
+</head>
+
+<body>
+	<h1>Finance: Check Balances</h1>
+<div class="w3l_full">
+<div class="sap_tabs">
+	<div class="login-top agileits">
+				<div class="login-form login-form-left"> 
+				<div class="agile-row">
+					
+					<div class="login-agileits-top"> 	
+						<form>
+							 <h5>Multichoice </h5>
+							<input type="text" class="name" name="multichoice" id="multichoice" readonly />
+							<button type="button" onclick="getMultichoice();"  >Check Balance</button> 
+						 
+
+							<h5>Other </h5>
+							<input type="text" class="name" name="other" id="other" readonly />
+							<button type="button" onclick="getOther();">Check Balance</button>
+
+							<h5>Rehoboth </h5>
+							<input type="text" class="name" name="rehoboth" id="rehoboth" readonly />
+							<button type="button" onclick="getRehoboth();" >Check Balance</button>
+
+							<h5>Send Mail </h5>
+							<input type="text" class="name" name="multichoice" id="multichoice" readonly />
+							<button type="button" onclick="sendMail();"  >Send Mail</button> 
+						 
+
+						</form>	
+						<div hidden id="loader">
+						
+						</div>
+					</div> 
+					
+				</div>  
+			</div> 
+
+				</div>
+
+
+
+</div>
+</div>
+<div class="footer">
+	<p>&copy; Mobipay | Finance Department</p>
+</div>
+
+  <script src="./index.js"></script>
+</body>
+</html>

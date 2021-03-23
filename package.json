@@ -1,0 +1,21 @@
+{
+  "name": "check-balances",
+  "version": "1.0.0",
+  "description": "finance checking balances app",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Anceley Mahara",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^11.0.4",
+    "is-online": "^9.0.0",
+    "node-datetime": "^2.1.2",
+    "nodemailer": "^6.4.17",
+    "soap": "^0.36.0"
+  },
+  "devDependencies": {
+    "electron-packager": "^15.2.0"
+  }
+}
