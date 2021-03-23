@@ -1,4 +1,4 @@
-# Check-Balances-v1.0.1
+# Check-Balances
 Desktop App for checking available credit balances from service providers
 Developed using ElectronJs framework for creating desktop applications.
 You need to have nodejs installed in your computer in order to run the application
